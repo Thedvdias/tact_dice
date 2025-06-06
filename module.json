@@ -1,0 +1,19 @@
+{
+    "name": "tactician-dice",
+    "title": "Tactician Dice",
+    "description": "A texture similar to the Draw Steel Tactician Dice",
+    "author": "thedvdias",
+    "version": "1.0.0",
+    "minimumCoreVersion": "0.7.0",
+    "scripts": [
+        "scripts/main.js"
+    ],
+    "dependencies":[
+        {
+            "name":"dice-so-nice",
+            "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
+        }
+    ],
+    "download": "",
+    "manifest": ""
+  }
