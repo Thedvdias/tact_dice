@@ -8,12 +8,12 @@
     "scripts": [
         "scripts/main.js"
     ],
-    "dependencies":[
+    "dependencies": [
         {
-            "name":"dice-so-nice",
+            "name": "dice-so-nice",
             "manifest": "https://gitlab.com/riccisi/foundryvtt-dice-so-nice/-/raw/master/module/module.json"
         }
     ],
-    "download": "",
-    "manifest": ""
-  }
+    "download": "https://github.com/Thedvdias/tact_dice/archive/refs/heads/main.zip",
+    "manifest": "https://raw.githubusercontent.com/Thedvdias/tact_dice/refs/heads/main/module.json"
+}
