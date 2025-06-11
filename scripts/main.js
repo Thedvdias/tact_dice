@@ -1,8 +1,20 @@
 Hooks.once("diceSoNiceInit", (dice3d) => {
   dice3d.addTexture("Tactician", {
-    name: "tactician",
+    name: "Tactician",
     composite: "source-over",
-    source: "modules/tactician-dice/images/tactician_swirl.png",
-    bump: "modules/tactician-dice/images/tactician_swirl.png",
+    source: "modules/tactician-dice/images/tactician.webp",
+    bump: "modules/tactician-dice/images/tactician.webp",
+  });
+  dice3d.addTexture("Eleementalist Transparent", {
+    name: "Elementalist Transparent",
+    composite: "destination-in",
+    source: "modules/tactician-dice/images/elementalist_transparent.webp",
+    bump: "modules/tactician-dice/images/elementalist_transparent.webp",
+  });
+  dice3d.addTexture("Eleementalist", {
+    name: "Elementalist",
+    composite: "source-over",
+    source: "modules/tactician-dice/images/elementalist.webp",
+    bump: "modules/tactician-dice/images/elementalist.webp",
   });
 });
